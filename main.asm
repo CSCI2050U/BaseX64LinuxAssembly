@@ -15,7 +15,7 @@ main:
 
   ; exit(0)
   mov rax, 0
-  call exit
+  ret
 
 section .data
   message db "Hello, world!", 0ah, 0dh, 0
