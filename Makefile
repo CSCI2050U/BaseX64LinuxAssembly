@@ -5,3 +5,6 @@ all: main.asm
 clean:
 	rm *.out
 	rm *.o
+
+run:
+	./main.out
